@@ -12,11 +12,7 @@ const CartCard = (props) => {
       <h5>{title} : </h5> 
       <span className="price">₹{price}</span>
       </div>
-     
-      
-      <button id="cart" onClick={() => onAdd(item)}><i class="ri-add-circle-fill"></i></button>
-      
-        
+      <button id="cart" onClick={() => onAdd(item)}><i class="ri-add-circle-fill"></i></button> 
     </div>
   );
 };

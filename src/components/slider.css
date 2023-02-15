@@ -11,6 +11,12 @@
     margin-bottom: 250px;
     
   }
+  #desc{
+    font-size: 1.4rem;
+  }
+  #tit {
+    font-weight: 800;
+  }
 
   .btn:hover {
     color: rgb(255, 255, 255);
@@ -29,6 +35,7 @@
 }
   
   @media only screen and (max-width: 992px) {
+  
     .slider__content h2 {
       font-size: 1.5rem;
     }
@@ -45,6 +52,23 @@
   }
   
   @media only screen and (max-width: 767px) {
+    #bt1 {
+      
+      font-size: 0.6rem;
+      
+    }
+    #tit {
+      font-size: 1rem;
+    }
+    #desc {
+      gap:0.1rem;
+      font-size: 0.6rem;
+    }
+    #slide {
+      margin-top:20px;
+      margin-bottom: 20px;
+      
+    }
     .slider__content {
       padding-left: 0;
     }

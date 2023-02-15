@@ -55,6 +55,7 @@
   
   li {
     font-weight: 600;
+    
   }
   
   #errorOccured {
@@ -63,13 +64,22 @@
   }
   
   @media only screen and (max-width: 950px) {
+    .rev{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
     .center {
       width: auto;
     }
   }
   
   @media only screen and (min-width: 950px) {
+    .rev{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
     .center {
+      
       width: 40%;
     }
   }

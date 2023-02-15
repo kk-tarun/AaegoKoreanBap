@@ -27,9 +27,9 @@ export default function Services() {
             <div key={item.id}>
               <div className="slider__wrapper d-flex align-items-center justify-content-between pt-5">
                 <div className="slider__content w-50 ps-2">
-                  <h2 className="mb-3 ">{item.title}</h2>
-                  <p>{item.desc}</p>
-                  <button className="btn">Explore Food</button>
+                  <h2 id="tit"className="mb-3 ">{item.title}</h2>
+                  <p id="desc">{item.desc}</p>
+                  <button id="bt1" className="btn">Explore Food</button>
                 </div>
 
                 <div className="slider__img w-50">

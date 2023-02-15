@@ -137,7 +137,7 @@ export const frieddishes = [
   },
   {
     id: "16",
-    title: "Tongdak / Whole chicken",
+    title: "Tongdak/ Whole chicken",
     price: 600,
     imgUrl: fried08,
   },

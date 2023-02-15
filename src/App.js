@@ -54,7 +54,9 @@ export default function App() {
         #slide,
         
         #menu,
-        
+        #cartmenu,
+        #checkout1,
+        .rev,
         .footer
     `,
       {

@@ -26,6 +26,7 @@
   
 
   @media only screen and (max-width: 992px) {
+    
     .menu__title {
       font-size: 1.4rem;
     }
@@ -36,6 +37,10 @@
   }
   
   @media only screen and (max-width: 767px) {
+    #menu {
+      margin-top:0px;
+      margin-bottom: 0px;
+    }
     .filter-btn {
       margin-bottom: 15px;
     }

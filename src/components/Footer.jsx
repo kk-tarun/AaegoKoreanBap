@@ -12,8 +12,8 @@ export default function Footer() {
         <div className="brand container">
           <img src={logo2} alt="" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
-            repudiandae.
+            Aegyo Korean Bap <br></br>
+            Korean Cuisine Resturant
           </p>
           <ul>
             <li>
@@ -32,15 +32,15 @@ export default function Footer() {
         </div>
         <div className="about container">
           <div className="title">
-            <h3>About Us</h3>
+            <h3><b>About Us</b></h3>
           </div>
           <p>
-            
+           Aegyo Korean Bap is a korean cuisine resturant stabalished in 2023, it provides one of the finest dining experince of korean culture and food here in punjab .We also do Delivery. 
           </p>
         </div>
         <div className="contact container">
           <div className="title">
-            <h3>Contact Us</h3>
+            <h3><b>Contact Us</b></h3>
           </div>
           <p>+91 9648936455</p>
           <p>aegyokoreanbap@gmail.com</p>
@@ -64,10 +64,10 @@ const Section = styled.footer`
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10vw;
-  padding: 4vw;
+  gap: 5vw;
+  padding: 2vw;
   p {
-   
+    color:#FFFFE0 ;
     font-size: 1.1rem;
     line-height: 2rem;
     letter-spacing: 0.1rem;
@@ -108,36 +108,62 @@ const Section = styled.footer`
   .container {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.2rem;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
   @media screen and (min-width: 260px) and (max-width: 1080px) {
     grid-template-columns: 1fr;
+    
+    
     .container {
+      h3{
+        font-size: 2rem;
+      }
       img {
         height: 4rem;
         width: 10rem;
       }
+      p{
+        font-size:1rem;
+      }
+      svg {
+        
+        font-size: 1rem;
+      
     }
   }
 `;
 
 const LowerFooter = styled.div`
   margin: 0;
-  text-align: center;
+  width: 100%;
+  height: 50px;
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  bottom: 0;
   background-color: black;
   color: white;
-  padding: 1rem;
+  
   h2 {
+    font-size:24px;
+    margin-top:50px;
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
     span {
       color: #fc4958;
       text-transform: uppercase;
     }
   }
   @media screen and (min-width: 260px) and (max-width: 450px) {
+    margin:0;
     h2 {
+      
+      font-size:0.8rem;
       span {
         display: block;
       }

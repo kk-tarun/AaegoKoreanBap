@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import logo from "../image/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -93,7 +93,6 @@ export default function Navbar(props) {
 const Nav = styled.nav`
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@500&display=swap');
  font-family:Noto Serif Khojki;
-  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;

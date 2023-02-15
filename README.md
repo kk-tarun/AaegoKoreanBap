@@ -1,11 +1,4 @@
 Aegyo Korean Bap 
-.
-.
-.
-Deployment Link :- https://benevolent-baklava-ef6c35.netlify.app/
-.
-.
-.
 Its a resturant based on korean cuisine website which give option to :-
  To check food iteams 
  To Know hositality and services
@@ -19,4 +12,4 @@ And this is what our website represent with their food and outlet of website .
 
 Hope you like it 
 
--- Aprendu Aman
+-- Tarun Kumar Kushwaha

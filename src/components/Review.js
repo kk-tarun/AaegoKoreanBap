@@ -3,7 +3,7 @@ import { useState } from "react";
 import useList from "./useList";
 import "./review.css";
 export default function App() {
-  const { list, push} = useList("");
+  const { list, push } = useList("");
   const [todo, setTodo] = useState("");
 
   const errorr = () => {

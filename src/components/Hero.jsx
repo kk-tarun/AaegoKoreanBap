@@ -11,7 +11,8 @@ export default function Hero() {
         <div className="info">
           <h2><center>𝔸𝕖𝕘𝕪𝕠 𝕂𝕠𝕣𝕖𝕒𝕟 𝔹𝕒𝕡</center></h2>
           <em>
-            Korean Cuisine 
+            Authentic Korean Cuisine <br></br>
+            Resturant for Friends & family
           </em>
           <a href="#cartmenu"><button>ORDER NOW</button></a>
         </div>
@@ -50,8 +51,11 @@ const Section = styled.section`
       em {
         color: white;
         width: 60%;
+        font-family:"Times New Roman",Times,serif;
+        Font-style:oblique;
+        
         text-align: end;
-        font-size: 1.1rem;
+        font-size: 1.7rem;
         line-height: 2rem;
         letter-spacing: 0.1rem;
       }
@@ -84,6 +88,7 @@ const Section = styled.section`
         }
         em {
           width: 90%;
+          font-size: 1.1rem;
         }
       }
     }
