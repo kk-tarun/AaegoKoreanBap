@@ -1,3 +1,5 @@
+Deployment Link: https://candid-selkie-b90afb.netlify.app/
+
 Aegyo Korean Bap 
 Its a resturant based on korean cuisine website which give option to :-
  To check food iteams 
