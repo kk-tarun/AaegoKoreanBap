@@ -1,0 +1,123 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: 
+    url("https://static.vecteezy.com/system/resources/previews/016/030/491/original/top-view-of-traditional-korean-food-on-a-table-illustration-delicious-korean-bbq-grill-with-all-small-side-dishes-set-beef-and-pork-korean-barbecue-asian-food-background-vector.jpg");
+  background-size: cover;
+  background-position: center;
+    
+    
+}
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: 
+    url("https://static.vecteezy.com/system/resources/previews/016/030/491/original/top-view-of-traditional-korean-food-on-a-table-illustration-delicious-korean-bbq-grill-with-all-small-side-dishes-set-beef-and-pork-korean-barbecue-asian-food-background-vector.jpg");
+  background-size: cover;
+  background-position: center;
+    
+    
+    
+  }
+  
+  #form1{
+    
+      background:ghostwhite;
+      opacity: 0.87;
+      padding: 0px 60px;
+      /* border-style: solid;
+      border-color: #f5740a; */
+      border-radius: 20px;
+      
+  }
+  #form2{
+    
+    background-color: ghostwhite;
+    opacity: 0.87;
+    padding: 0px 60px;
+    /* border-style: solid;
+    border-color: #f5740a; */
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+  
+  h1 {
+    color:#f5740a;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  h4{
+    justify-content: center;
+  }
+  #lin {
+   
+   padding-bottom: 15px;
+   text-decoration: none ;
+   color:#f5740a;
+  }
+  #lin:hover{
+    
+    color: #f9c74f;
+  
+}
+  
+  #bt1{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      
+      background-color: #f5740a;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      
+  }
+  #bt1:hover{
+    
+      background-color: #f9c74f;
+    
+  }
+
+  @media screen and (min-width: 260px) and (max-width: 450px) {
+    
+    .register{
+      height: 100%;
+      width:100%;
+    }
+    #form2 {
+      margin: 50px;
+      height: 100%;
+      width:100%;
+    }
+    .login{
+      height: 100%;
+      width:100%;
+    }
+    #form1 {
+      margin: 20px;
+      height: 100%;
+      width:100%;
+    }
+    #bt1 {
+      height: 40%;
+      width:100%;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    
+  }
+  
